@@ -1,0 +1,106 @@
+@font-face {
+    font-family: "Open Sans";
+    src: url("/fonts/GillSans/GillSansC.woff2") format("woff2"),
+    url("/fonts/GillSans/GillSansC.woff") format("woff")
+}
+
+* {
+    font-family: 'GillSansC';
+    font-style: normal;
+}
+
+.agent-form {
+    color: #FFFFAC;
+    border: 2px solid #FF904C;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+}
+.container-stats{
+    display: flex;
+    flex-direction: column;
+}
+.agent-container{
+    display: flex;
+    flex-direction: row;
+}
+.block{
+    background:linear-gradient(to right, yellow 30%, green 0);
+    background-size:50px 100%;
+}
+.agent-img{
+    width: 100px;
+    height: 150px;
+    border: 1px solid black;
+    border-right: 2px solid #FF904C;
+    border-bottom: 2px solid #FF904C;
+
+}
+#name{
+    background-color: black;
+    border: 2px solid orange;
+}
+.stats{
+    margin-top: 2px;
+    margin-bottom: 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 300px;
+}
+.stats-name {
+
+}
+.buttons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+.img-block{
+
+
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-stat{
+
+    width: auto;
+    height: 100%;
+}
+.button-stats{
+
+    text-align: center;
+    align-content: center;
+    cursor: pointer;
+    margin: 5px;
+    width: 25px;
+    height: 25px;
+    border-radius: 4px;
+}
+
+.hp{
+    background-color: #CB2642;
+}
+.sp{
+    background-color: #EFECC0;
+}
+.tp{
+    background-color: #814A84;
+}
+.jt{
+    background-color: #3FCCBD;
+}
+
+.button-save{
+    border: 2px solid #FF904C;
+    width: 50px;
+    height: 25px;
+}
